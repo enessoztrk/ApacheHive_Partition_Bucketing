@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Apache Hive Partitioning ve Bucketing: Veri Yönetimindeki Önemi</title>
-</head>
 <body>
 	<h1>Apache Hive Partitioning ve Bucketing: Veri Yönetimindeki Önemi</h1>
 	<p>Apache Hive, dağıtık ortamlardaki popüler veri ambarlarından biridir. Apache Hive, büyük miktarda veriyi depolamak için kullanılır ve HDFS (Hadoop Dağıtılmış Dosya Sistemi) ortamında hızlı, paralel ve verimli bir şekilde işlenebilir. Hive sorgularının erişim süresini iyileştirmek için Hive tabloları çeşitli şekillerde depolanabilir. Hive tabloları partition ve bucketing olarak saklanabilir.</p>
