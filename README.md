@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h1>Apache Hive Partitioning ve Bucketing: Veri Yönetimindeki Önemi</h1>
-	<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*8q61l11W0ILbkrwlhkEQoA.jpeg" alt="Apache Hive Partitioning ve Bucketing: Veri Yönetimindeki Önemi" />
-	<p>Apache Hive, dağıtık ortamlardaki popüler veri ambarlarından biridir. Apache Hive, büyük miktarda veriyi depolamak için kullanılır ve HDFS (Hadoop Dağıtılmış Dosya Sistemi) ortamında hızlı, paralel ve verimli bir şekilde işlenebilir. Hive sorgularının erişim süresini iyileştirmek için Hive tabloları çeşitli şekillerde depolanabilir. Hive tabloları partition ve bucketing olarak saklanabilir.</p>
-	<p>Hive partitioning ve bucketing işlemleri, büyük veri kümesi yönetiminde önemli bir role sahiptir. Partitioning, verileri işleme işlemini daha hızlı hale getirirken, verilerin düzenli bir şekilde organize edilmesini sağlar. Bu nedenle veriye erişim daha hızlı ve daha verimli hale gelir. Bucketing ise verileri fiziksel olarak bölerek daha hızlı sorgu işleme süreleri elde etmeyi sağlar.</p>
-	<h2>Hive Partitioning Nedir?</h2>
-	<p>Hive partitioning, bir veri kümesinin parçalara bölünmesini sağlayan bir işlemdir. Veri kümesi belirli bir sütuna göre bölünerek partition’lar halinde tutulur. Bu sayede, veri setine yönelik sorguların daha hızlı bir şekilde gerçekleştirilmesi sağlanır. Partitioning işlemi, büyük veri kümesinin yönetimini kolaylaştırır ve veri saklama, yedekleme ve kurtarma işlemlerinde de faydalıdır.</p>
-	<h2>Hive Bucketing Nedir?</h2>
-	<p>Hive bucketing, veri kümesinin belirli bir sütuna göre gruplanmasını sağlayan bir işlemdir. Veriler belirli bir sütuna göre sıralanarak, belirli sayıda bucket’a bölünür. Bu sayede, verilerin daha hızlı bir şekilde işlenmesi ve sorgulanması sağlanır. Bucketing işlemi, veri sıralamasına ve veri sorgularının doğruluğuna da katkıda bulunur.</p>
+	<h1>Importance of Apache Hive Partitioning and Bucketing in Data Management</h1>
+	<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*8q61l11W0ILbkrwlhkEQoA.jpeg" alt="Importance of Apache Hive Partitioning and Bucketing in Data Management" />
+	<p>Apache Hive is one of the popular data warehouses in distributed environments. It is used to store large amounts of data and can be processed quickly, in parallel, and efficiently in an HDFS (Hadoop Distributed File System) environment. Hive tables can be stored in various ways to improve the access time of Hive queries. Hive tables can be stored as partition and bucketing.</p>
+	<p>Partitioning and bucketing in Hive play an important role in managing large datasets. Partitioning makes the processing of data faster while ensuring that the data is organized in a structured way. Therefore, accessing the data becomes faster and more efficient. Bucketing physically divides the data to achieve faster query processing times.</p>
+	<h2>What is Hive Partitioning?</h2>
+	<p>Hive partitioning is a process that divides a dataset into parts. The dataset is stored in partitions based on a specific column. This allows queries for the dataset to be performed more quickly. Partitioning makes it easier to manage large datasets and is also useful for storing, backing up, and recovering data.</p>
+	<h2>What is Hive Bucketing?</h2>
+	<p>Hive bucketing is a process that groups a dataset based on a specific column. The data is sorted based on a specific column and divided into a certain number of buckets. This allows the data to be processed and queried more quickly. Bucketing also contributes to data sorting and query accuracy.</p>
 </body>
 </html>
