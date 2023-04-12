@@ -1,14 +1,16 @@
-Apache Hive Partition vs Bucketing
+# Apache Hive Partition vs Bucketing
 
-Task 1: Upload the u.data and u.item datasets from the Github repo as tables to Hive.
+Task 1: Upload u.data and u.item datasets from Github repo to Hive as tables.
+
+Step 1: Download and review the datasets in the datasets folder.
 
 u.data
-wget -P ~/datasets/ https://raw.githubusercontent.com/enessoztrk/u.data
+wget -P ~/datasets/ https://raw.githubusercontent.com/enessoztrk/datasets/master/ml-100k/u.data
 
 head ~/datasets/u.data
 
 u.item
-wget -P ~/datasets/ https://raw.githubusercontent.com/enessoztrk/u.item
+wget -P ~/datasets/ https://raw.githubusercontent.com/enessoztrk/datasets/master/ml-100k/u.item
 
 head ~/datasets/u.item
 
