@@ -11,6 +11,7 @@
 	<p>Hive partitioning ve bucketing işlemleri, büyük veri kümesi yönetiminde önemli bir role sahiptir. Partitioning, verileri işleme işlemini daha hızlı hale getirirken, verilerin düzenli bir şekilde organize edilmesini sağlar. Bu nedenle veriye erişim daha hızlı ve daha verimli hale gelir. Bucketing ise verileri fiziksel olarak bölerek daha hızlı sorgu işleme süreleri elde etmeyi sağlar.</p>
 
 	<h2>Hive Partitioning Nedir?</h2>
+	
 	<p>Hive partitioning, bir veri kümesinin parçalara bölünmesini sağlayan bir işlemdir. Veri kümesi belirli bir sütuna göre bölünerek partition’lar halinde tutulur. Bu sayede, veri setine yönelik sorguların daha hızlı bir şekilde gerçekleştirilmesi sağlanır. Partitioning işlemi, büyük veri kümesinin yönetimini kolaylaştırır ve veri saklama, yedekleme ve kurtarma işlemlerinde de faydalıdır.</p>
 
 	<h2>Hive Bucketing Nedir?</h2>
