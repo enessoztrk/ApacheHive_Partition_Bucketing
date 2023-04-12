@@ -9,5 +9,6 @@
 	<p>Hive partitioning is a process that divides a dataset into parts. The dataset is stored in partitions based on a specific column. This allows queries for the dataset to be performed more quickly. Partitioning makes it easier to manage large datasets and is also useful for storing, backing up, and recovering data.</p>
 	<h2>What is Hive Bucketing?</h2>
 	<p>Hive bucketing is a process that groups a dataset based on a specific column. The data is sorted based on a specific column and divided into a certain number of buckets. This allows the data to be processed and queried more quickly. Bucketing also contributes to data sorting and query accuracy.</p>
+	https://enessoztrk.medium.com/apache-hive-partitioning-bucketing-1856a8f5450b
 </body>
 </html>
