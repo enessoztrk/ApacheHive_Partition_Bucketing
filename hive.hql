@@ -296,8 +296,3 @@ group by movietitle order by avg_rating desc limit 20;
 | 5.0         | 2            | Prefontaine(1997)                         |
 | 5.0         | 1            | 8Seconds(1994)                            |
 +-------------+--------------+-------------------------------------------+
-
-
-
-
-
