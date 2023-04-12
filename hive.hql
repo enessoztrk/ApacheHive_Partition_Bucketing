@@ -119,11 +119,14 @@ select count(1) from movielens.movies;
 +-------+
 
 
-Task 2: Business users want to make some queries and want to get the results of these queries as soon as possible. Make the necessary data organization on Hive to meet the needs of business users.
+Task 2: Business users want to make some queries and want to get the results of these queries as soon as possible. 
+Make the necessary data organization on Hive to meet the needs of business users.
 
-Step 1: We want to determine the most popular (most voted, highest average score) movies on a monthly basis. Design and create the table (partition and bucketing) accordingly.
+Step 1: We want to determine the most popular (most voted, highest average score) movies on a monthly basis. 
+Design and create the table (partition and bucketing) accordingly.
 
-Since business users query movies on a monthly basis, we can increase query performance if I make partitions by year and month and bucket movie names.
+Since business users query movies on a monthly basis, we can increase query performance 
+if I make partitions by year and month and bucket movie names.
 
 create table if not exists movielens.movie_ratings (
 user_id int,
